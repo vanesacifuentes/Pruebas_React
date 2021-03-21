@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente contador Probando con enzyme 1`] = `
+<Fragment>
+  <h1>
+    Este es mi contador:
+  </h1>
+  <h2>
+    0
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+     Aumentar 
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     Restar 
+  </button>
+  <button
+    onClick={[Function]}
+  >
+     Reset 
+  </button>
+</Fragment>
+`;

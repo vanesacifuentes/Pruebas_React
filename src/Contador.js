@@ -7,7 +7,8 @@ const Contador = ()=>{
 
     return(
         <Fragment>
-           <h1>Este es mi contador: {contador}</h1>
+           <h1>Este es mi contador:</h1>
+           <h2>{contador}</h2>
            <button onClick={() => setContador(contador +1) }> Aumentar </button> 
             <button onClick= {() => setContador(contador -1)}> Restar </button>
             <button onClick= {() => setContador(0) }> Reset </button>
